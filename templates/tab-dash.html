@@ -1,0 +1,49 @@
+<ion-view view-title="Dashboard" id="exercises-page" hide-nav-bar="true">
+    <ion-content padding="false" class=" manual-remove-top-padding"  > 
+            <ion-header-bar align-title="left" class="header-bar">
+           <img class="logo_horizontal" src="img/logo_horizontal.svg">
+           <a ng-controller="AuthCtrl as authCtrl" ng-click=authCtrl.logOut()>Log out(remove to settings)</a>
+        </ion-header-bar>
+        <div class="list card manual-card-fullwidth top-menu" id="cameraTabDefaultPage-card21">
+            <!-- <ion-item class="item-avatar  top-bar" id="cameraTabDefaultPage-list-item6">
+                <h2>Item</h2>
+                <p>Kee</p>
+            </ion-item> -->
+            <div class="top-bar">
+                <div class="circle_progress">
+                    <h2>50</h2>
+                    <h3>mins</h3>
+                </div>
+                <div class="info-container">
+                    <h1>Hi, Tuomo!</h1>
+                    <h2>Try harder!</h2>
+                </div>
+            </div>
+           <!--  <div class="item item-body" id="cameraTabDefaultPage-list-item-container2">
+                <button id="cameraTabDefaultPage-button2" style="text-align:right;" class="button button-positive">Add exercise</button>
+                <div id="cameraTabDefaultPage-markdown6" style="margin-top:0px;color:#000000;">
+                    <p>Your exercises</p>
+                </div>
+            </div>
+ -->
+            <div class="bottom-menu">
+                <h2>Your exercises</h2>
+                <button class="button button-aggressive white-button"><a ui-sref="add-exercise">Add new</a></button>
+                <a ui-sref="add-exercise">Add new</a>
+            </div>
+        </div>
+
+
+         <ul style="margin-top: 10px; padding: 0 10px;">
+                <li class='list-menu-2'>
+                    <h2>Running<br><span class='text-grey'>it was hard</span></h2> <h2>1h 10m</h2> 
+                </li>
+                <li class='list-menu-2'>
+                    <h2>Walking with my dog<br><span class='text-grey'>it was easy</span></h2><h2>5h 40m</h2>
+                </li>
+                <li class='list-menu-2'>
+                    <h2 style="width:80%;">Doing exercises with my friends during the whole day!!<br><span class='text-grey'>it was ok</span></h2> <h2>1h 10m</h2>
+                </li>
+            </ul>
+  </ion-content>
+</ion-view>

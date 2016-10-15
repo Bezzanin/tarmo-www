@@ -1,0 +1,320 @@
+/* Empty. Add your own CSS if you like */
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+body {
+  background:#fff;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+
+}
+
+#login-page, #register-page {
+  background:#e5304f; 
+}
+label {
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.login-logo {
+  text-align: center;
+}
+.form-group {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-group .label-control {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  width: 100%;
+  pointer-events: none;
+  height: 100%;
+   border-bottom: 7px solid #fff;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 12px 0;
+  width: 100%;
+  font-size: 50px;
+}
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-control::-moz-placeholder {
+  color: #fff;
+}
+.form-control:-ms-input-placeholder {
+  color:#fff;
+}
+
+.form-control:-moz-placeholder {
+  color: #fff;
+}
+
+
+
+.input-field label:before{
+  content: '';
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 4px solid #fff;
+}
+
+input[type="password"], input[type="email"]
+{	
+	color: #fff;
+  background: transparent;
+  font-family: 'montserrat';
+  font-weight: 700;
+  font-size: 21px;
+}
+input.btn[type="submit"] {
+  background: #fff;
+  border:none;
+  border-radius: 5px;
+  color: #e5304f;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0;
+  outline: medium none;
+  overflow: hidden;
+  padding: 6px;
+  text-transform: lowercase;
+  width: 100%;
+  font-family: 'montserrat';
+  font-weight: 700;
+  font-size: 21px;
+-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+}
+.text-p{
+  font-size: 21px;
+  text-align: center;
+  margin: 10px 0;
+  color: #fff;
+}
+.text-p a{
+  color: #175690;
+}
+@media (max-width: 480px){
+  form#login-form {
+    width: 63%;
+    margin: auto;
+  }
+}
+#logo {
+  width:65%;
+  margin: 50px 0px 18px 0px;
+}
+#last_input {
+  margin-bottom: 40px;
+}
+.text-p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/*
+
+END OF LOGIN FORM
+TODO: REWRITE CSS BELOW
+
+*/
+
+.header-bar {
+  background:#e5304f;
+  height:55px;
+  border-bottom: 2px solid #fff;
+  padding-left: 15px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
+}
+.header-bar img {
+  width:120px;
+  height:40px;
+}
+
+.header-bar h3 {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  color:#fff;
+}
+
+/*Remove top-margin*/
+.top-menu {
+  margin: 0;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 49px;
+  background:#e5304f;
+ justify-content: center;
+}
+
+
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-container h1 {
+    color: #fff;
+}
+.info-container h2 {
+  color: #fff;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 20px;
+}
+h1, h2, h3, h4, h5 {
+  font-family: inherit;
+  font-weight: inherit;
+  margin: 0 !important; 
+}
+/*CIRCLE CONTENT*/
+.circle_progress {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+     -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
+}
+.circle_progress h2, .circle_progress h3 {
+  margin: -2px !important;
+  color: #e5304f;
+  font-size: 20px;
+}
+.circle_progress h2 {
+  font-size: 30px;
+}
+.cirlce_progress h3 {
+  font-size: 20px;
+}
+
+/*END OF CIRCLE CONTENT*/
+
+
+/*BOTTOM MENU*/
+
+.bottom-menu {
+
+  padding: 5px 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between  ;
+  align-items: center;
+}
+
+.bottom-menu h2 {
+  color: #e5304f;
+}
+
+.white-button {
+  background-color: #fff;
+  min-height: 40px;
+  margin: 5px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+}
+
+/* ACTIVITY PAGE*/
+.top-menu-activity {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #efefef;
+}
+.top-menu-activity h1 {
+  margin-bottom: 10px !important;
+}
+.list-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-menu h2 {
+  color: #e5304f;
+  margin: 7px 0 !important;
+}
+.single-menu-item {
+  padding: 0 10px;
+}
+.single-menu-item h1 {
+  margin: 20px 0 !important;
+}
+
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color: #e5304f !important;
+    border-top: 2px solid #e5304f !important;
+}
+
+.icon {
+  font-size: 38px !important;
+  margin: 10px
+}
+.item {
+  padding: 20px 21px;
+  white-space: normal;
+  text-overflow: none;
+}
+.rating-list {
+  padding: 0 10px;
+}
+
+.text-grey {
+  font-size: 15px;
+  color: #d6d6d6;
+}
+.list-menu-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-menu-2 h2 {
+  color: black;
+  font-size: 18px;
+  margin: 7px 0 !important;
+}
+
